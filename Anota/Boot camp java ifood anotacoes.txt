@@ -1,0 +1,66 @@
+Boot camp java ifood anotacoes 
+
+Padroes:
+Padroes sao algo que se repete e pode ajudar a resolver problemas maiores dividindo eles em problemas menores 
+
+Abstracao:
+Tirar algo do mundo real e fazer com q ele possa funciona no mundo abstrato 
+
+Algoritmos:
+sao instrucoes feitas de forma acertiva para que um processo possa ser feito sem grander problemas, sendo assim
+sao separados em problemas menores e feito etapas para a execucao, esse algoritmo deve ser entendido por humano e maquina 
+
+tecnicas utilizadas na logica de programa:
+    Tecnica linear:
+    temos a tecnica linear onde existe apenas um caminho existente, desde o inicio ao fim, apenas um caminho e programado
+    Tecnica estruturada: 
+    onde pode haver de um caminho, Ex: A ou B
+    Tecnica modulada:
+    modulos separados para auxiliar a consertos de uma certa parte do codigo, pode ser linear ou estrururado 
+    
+Variaveis e constantes:
+    Variaveis sao instaveis e podem ser alterada
+    constantes sao fixas e nao sao alteraveis 
+    
+    
+Estruturas condicionais: 
+    verifica se os valores sao verdadeiros, caso contrario executa outro comando
+
+operadores logicos:
+    and: todos os resultados precisa ser verdadeiro para dar verdadeiro, sera falso se algum der falso
+    or: se qualquer um dos resultados for verdadeiro, retorna verdadeiro 
+    not: inverte os resultados 
+    
+Vetor e matriz:
+    Vetor: Um vetor e uma sequencia de variaveis do mesmo tipo e tem um nome unico, sao como planilhas
+    
+Git e Github:
+    Git serve para versionamento gratuito
+    Github pode ser pago em alguns casos
+    comando git init cria uma pasta .git no repostorio q for escolhido
+    git config --global user.mail "email" serve para configurar email o git na pasta
+    git config --global(pode ser local) user.name serve para configurar seu usuario
+    git commit -m "nome" gera commit que da sentido a tudo criado 
+    git status verificar os status do programa
+    git push origin master bota o repositorio no github
+    git pull origin master ve o defeito do repositorio
+    
+Comand line:
+    Ctrl + L limpa terminal
+    voltar uma pagina cd ... quantidades de ponto apos o ponto indica quantas pastas retroceder
+    Tab auto completa pastas 
+    mkdir cria uma pasta
+    echo volta um arquivo, porem com o >(maior que, direcionamento de fluxo) pode se criar um arquivo com a informacao contida 
+    mv <nome do arquivo> ./<nome do dir> move diretorios 
+    git remote add origin <link do repositorio>
+    git remote -v voce bota seus programas para uma lista para lancamento
+    
+herarquia git:
+    commit: da inicio e sentido as trees e as blobs
+    trees: um hash que aponta um arquivo
+    blobs: bolhas que contem arquivos 
+    
+chave ssh:
+    serve para ter uma clonagem melhor e seguranca no github
+    
+ 
